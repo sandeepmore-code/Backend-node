@@ -220,6 +220,8 @@ app.post("/unwind-project", async (req, res) => {
 mongoose.connect(process.env.MONGODB_URL)
   .then(() => {
     console.log("DB connected");
+    console.log('MONGODB_URL:', process.env.MONGODB_URL);
+
   })
   .catch((error) => {
     console.error('Error connecting to MongoDB:', error.message);
