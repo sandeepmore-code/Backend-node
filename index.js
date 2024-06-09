@@ -109,7 +109,7 @@ mongoose.connect(process.env.MONGODB_URL, {
 
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
-});
+})
 
 // import express from 'express';
 // import mongoose from 'mongoose';
