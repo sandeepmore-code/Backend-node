@@ -70,7 +70,7 @@ const app = express();
 const port = process.env.PORT || 3001;
 
 const corsOptions = {
-  origin: ["http://localhost:3000", "https://myntra.com", "https://react-1-three-alpha.vercel.app", "https://react-1-woad-five.vercel.app"],
+  origin: ["http://localhost:3000", "https://myntra.com", "https://react-1-three-alpha.vercel.app", "https://react-1-woad-five.vercel.app","https://react-1-red.vercel.app"],
   credentials: true,
 };
 
