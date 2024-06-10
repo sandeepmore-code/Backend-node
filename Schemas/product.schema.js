@@ -6,7 +6,7 @@
   price : Number,
   quantity : Number,
   tags : [String],
-  user : { type: mongoose.Schema.Types.ObjectId, ref : "User" },
+  user : { type: mongoose.Schema.Types.ObjectId, ref : "users" },
   // payment : {type : mongoose.Schema.Types.ObjectId,ref : "payment"},
  });
 

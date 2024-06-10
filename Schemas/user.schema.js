@@ -5,9 +5,9 @@ const userSchema = new Schema({
   email : String,
   password : String,
   role : String,
-  cart : [{ type: mongoose.Schema.Types.ObjectId, ref: "Product" }],
+  cart : [{ type: mongoose.Schema.Types.ObjectId, ref: "products" }],
   Wishlist : [String]
 })
-const UserSchema = model("User",userSchema);
+const UserSchema = model("users",userSchema);
 
 export default UserSchema;
