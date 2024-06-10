@@ -185,6 +185,7 @@ const port = process.env.PORT || 3001;
 const corsOptions = {
   origin: [
     "http://localhost:3000",
+    "https://react-1-red.vercel.app"
   ],
   credentials: true,
 };
